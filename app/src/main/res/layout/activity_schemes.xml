@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disaster relief schemes"
+        android:textSize="40dp"
+        android:padding="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_text"
+        android:text="Following are the general Disaster management scemes-
+
+a. Human resource Development
+
+b. Setting up of National Centre for Disaster Management (NCDM)
+
+c. Setting up of Disaster Management Faculties in States
+
+d. UNDP is a united nation’s global development programs working in 166 countries.
+
+e. Programs for Community Participation and Public Awareness
+
+f. Observing National Disaster Reduction Day"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here are some specific disaster management provided by the govt. of india"
+        android:layout_margin="10dp"
+        android:id="@+id/schemes"/>
+</LinearLayout>
